@@ -2,10 +2,11 @@ html,
 body {
   scroll-behavior: smooth;
   font-family: 'inter', 'sans-serif';
-  background-image: linear-gradient(rgba(13, 15, 41, 0.4), rgba(13, 15, 41, 0.6)), url('/public/assets/hero/backgroundChopped.png');
+  background-image: linear-gradient(rgba(13, 15, 41, 0.3), rgba(13, 15, 41, 1)), url('/public/assets/hero/backgroundChopped.png');
   background-position: top center;
   background-size: contain;
   background-repeat: no-repeat;
+  overflow-x: hidden !important;
 }
 
 section,
@@ -33,6 +34,7 @@ div {
     background-size: cover;
   }
 }
+
 /* Card 1 */
 .background-offer-1 {
   position: relative;
@@ -70,7 +72,7 @@ div {
   z-index: 2;
 }
 
-.background-offer-1 > * {
+.background-offer-1>* {
   position: relative;
   z-index: 1;
 }
@@ -112,7 +114,7 @@ div {
   z-index: 2;
 }
 
-.background-offer-2 > * {
+.background-offer-2>* {
   position: relative;
   z-index: 1;
 }
@@ -154,7 +156,7 @@ div {
   z-index: 2;
 }
 
-.background-offer-3 > * {
+.background-offer-3>* {
   position: relative;
   z-index: 1;
 }
@@ -166,6 +168,7 @@ div {
 .offer-2 {
   background: linear-gradient(93.82deg, #868686 0.05%, #a1a0a0 103.96%);
 }
+
 .offer-3 {
   background: linear-gradient(93.82deg, #7e5245 0.05%, #be9494 103.96%);
 }
@@ -174,6 +177,7 @@ div {
   0% {
     transform: translateX(0);
   }
+
   100% {
     transform: translateX(calc(-25% * 3));
   }

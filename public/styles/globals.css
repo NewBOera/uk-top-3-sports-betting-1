@@ -2,6 +2,10 @@ html,
 body {
   scroll-behavior: smooth;
   font-family: 'inter', 'sans-serif';
+  background-image: linear-gradient(rgba(13, 15, 41, 0.4), rgba(13, 15, 41, 0.6)), url('/public/assets/hero/backgroundChopped.png');
+  background-position: top center;
+  background-size: contain;
+  background-repeat: no-repeat;
 }
 
 section,
@@ -11,4 +15,21 @@ div {
 
 .gradient {
   background: linear-gradient(93.82deg, #3affad 0.05%, #0091ff 103.96%);
+}
+
+@media (min-width: 1024px) {
+  body {
+    scroll-behavior: smooth;
+    font-family: 'inter', 'sans-serif';
+    background-image: linear-gradient(rgba(13, 15, 41, 0.4), rgba(13, 15, 41, 0.6)), url('/public/assets/hero/background.png');
+    background-position: top center;
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+}
+
+@media (min-width: 3400px) {
+  body {
+    background-size: cover;
+  }
 }

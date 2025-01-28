@@ -5,6 +5,8 @@ module.exports = {
       colors: {
         green: '#3AFFAD',
         blue: '#0D0F29',
+        orangy: '#FF3A5A',
+        pinky: '#7733FF',
       },
     },
   },

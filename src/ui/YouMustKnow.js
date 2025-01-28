@@ -11,8 +11,8 @@ export class YouMustKnow extends LitElement {
 
   render() {
     return html`
-      <section id="about-section" class="flex justify-center items-center overlay pt-4 lg:pt-8 text-white">
-        <div class="w-[340px] md:w-[774px] xl:w-[1200px] border-purple-500 border">
+      <section id="about-section" class="flex justify-center items-center pt-4 lg:pt-8 text-white">
+        <div class="w-[340px] md:w-[774px] xl:w-[1200px]">
           <div class="flex flex-col gap-5 ">
             <section class="text-sm leading-[18.2px] mt-5 md:mt-10">
               <h2 class="  text-left font-bold ">Everything You Must Know about 10 Best Casino Sites UK</h2>

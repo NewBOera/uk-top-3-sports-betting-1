@@ -11,61 +11,48 @@ export class Hero extends LitElement {
 
   render() {
     return html`
-      <style>
-        #hero-section {
-          height: calc(100vh);
-          min-height: 600px;
-        }
-
-        @media (min-width: 1524px) {
-          #hero-section {
-            height: calc(100vh);
-            min-height: 600px;
-          }
-        }
-
-        @media (min-width: 1024px) {
-          #hero-section {
-            height: calc(100vh);
-            min-height: 1000px;
-          }
-        }
-      </style>
-
-      <section id="hero-section" class="flex justify-center items-center overlay">
-        <div class="sm:w-[640px] md:w-[768px] lg:w-[1024px] xl:w-[1100px] 2xl:w-[1100px] w-full px-4 sm:px-6 md:px-8 lg:px-10 h-full grid place-content-center mt-[130px] lg:mt-[80px]">
-          <div class="flex flex-col gap-7 lg:gap-10">
-            <div class="flex justify-center">
-              <badge-desktop title-badge="Top 5 Casino"></badge-desktop>
-            </div>
-
-            <h1 class="text-2xl text-center font-medium md:text-3xl lg:leading-tight lg:text-4xl">
-              Live Entertainment
-              <br />
-              Events in the UK
-            </h1>
-
-            <p class="text-center font-light lg:text-lg">
-              <span class="font-medium">Your official guide to the best casino live entertainment in the UK.</span>
-              <br />
-              Prepare your senses for a truly exciting night out at the best British casinos, for you are about to discover the top venues offering live entertainment events to complete your
-              experience, beyond gaming, dining and drinking in style.
+      <div class="flex flex-col justify-center items-center text-white">
+        <section class="w-full sm:w-[360px] md:w-[774px] lg:w-[800px] mt-8">
+          <div class="flex flex-col items-center gap-5 w-fit mx-auto">
+            <img src="/public/assets/hero/topSports.png" alt="age aware" class="justify-self-center object-contain w-full md:w-[374px] lg:w-[426px]" />
+            <h2 class="text-center font-medium text-[22px] leading-[25px] tracking-wide">
+              SITES OF
+              <span class=" bg-clip-text text-transparent bg-gradient-to-r from-orangy to-pinky">JANUARY</span>
+              2025
+            </h2>
+            <p class=" font-normal text-[16px]leading-[19.8px]  text-center md:hidden px-10">
+              Top UK real money online Sport Betting compared and reviewed. Check our list of the most popular British online casinos. Play safely & responsibly
             </p>
-
-            <article class="flex justify-between gap-3 lg:gap-5 mt-3">
-              <div class="h-full w-4/12">
-                <img class="max-h-[384px] w-full flex-1" src="/public/assets/hero/1.png" alt="" />
-              </div>
-              <div class="h-full w-4/12">
-                <img class="max-h-[384px] w-full flex-1" src="/public/assets/hero/2.png" alt="" />
-              </div>
-              <div class="h-full w-4/12">
-                <img class="max-h-[384px] w-full flex-1" src="/public/assets/hero/3.png" alt="" />
-              </div>
-            </article>
+            <div class="hidden md:block">
+              <p class="font-normal text-[16px]leading-[19.8px]  text-center">Top UK real money online Sport Betting compared and reviewed.</p>
+              <p class="font-normal text-[16px]leading-[19.8px]  text-center">Check our list of the most popular British online casinos. Play safely & responsibly</p>
+            </div>
+            <div class="border-white border flex gap-2 items-center py-[6px] px-[20px] rounded-2xl">
+              <h3>Rated 4.9/5</h3>
+              <img src="/public/assets/hero/starsFrame.png" alt="age aware" class="justify-self-center object-contain h-[29px]" />
+            </div>
+            <div class="flex items-center">
+              <img src="/public/assets/hero/downArrows.png" alt="age aware" class="justify-self-center object-contain w-[46px]" />
+            </div>
           </div>
-        </div>
-      </section>
+        </section>
+
+        <section class="flex flex-col items-center gap-5 w-fit mt-2 md:mt-5 lg:w-[812px] ">
+          <h2 class=" text-center font-bold text-[22px] leading-[25px] tracking-wide mt-">
+            JOIN
+            <span class="text-green">9,958</span>
+            Monthly Bettors
+            <p>Betting Through Us!</p>
+          </h2>
+          <div class="flex items-center">
+            <img src="/public/assets/hero/progressBar.png" alt="age aware" class="justify-self-center object-contain w-[440px] lg:w-full" />
+          </div>
+          <h2 class=" text-center font-bold text-[18px] leading-[21px] w-[300px] md:w-full">
+            <span class="text-green">Welcome Bonus</span>
+            Only for the First 10,000 Bettors Each Month
+          </h2>
+        </section>
+      </div>
     `;
   }
 }

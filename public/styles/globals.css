@@ -169,19 +169,3 @@ div {
 .offer-3 {
   background: linear-gradient(93.82deg, #7e5245 0.05%, #be9494 103.96%);
 }
-
-@keyframes marquee {
-  0% {
-    transform: translateX(0);
-  }
-  100% {
-    transform: translateX(calc(-25% * 3));
-  }
-}
-
-.animate-marquee {
-  animation: marquee 40s linear infinite;
-  will-change: transform;
-  backface-visibility: hidden;
-  -webkit-backface-visibility: hidden;
-}

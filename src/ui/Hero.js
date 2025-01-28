@@ -47,9 +47,11 @@ export class Hero extends LitElement {
           <div class="flex items-center">
             <img src="/public/assets/hero/progressBar.png" alt="age aware" class="justify-self-center object-contain w-[440px] lg:w-full" />
           </div>
-          <h2 class=" text-center font-bold text-[18px] leading-[21px] w-[300px] md:w-full">
+          <h2 class="text-center font-[700] text-[18px] leading-[21.6px] text-white">
             <span class="text-green">Welcome Bonus</span>
-            Only for the First 10,000 Bettors Each Month
+            Only for the First
+            <br class="md:hidden" />
+            10,000 Bettors Each Month
           </h2>
         </section>
       </div>

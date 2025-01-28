@@ -12,3 +12,156 @@ div {
 .gradient {
   background: linear-gradient(93.82deg, #3affad 0.05%, #0091ff 103.96%);
 }
+
+/* Card 1 */
+.background-offer-1 {
+  position: relative;
+  background-color: transparent;
+  border-radius: 30px;
+  overflow: hidden;
+}
+
+.background-offer-1::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-image: url('/public/assets/offers/background-images/offer1.png');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  opacity: 0.3;
+  z-index: 0;
+}
+
+.background-offer-1::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  border-radius: 30px;
+  padding: 2px;
+  background: linear-gradient(93.82deg, #7e7245 0.05%, #969175 103.96%);
+  -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+  -webkit-mask-composite: xor;
+  mask-composite: exclude;
+  pointer-events: none;
+  z-index: 2;
+}
+
+.background-offer-1 > * {
+  position: relative;
+  z-index: 1;
+}
+
+/* Card 2 */
+.background-offer-2 {
+  position: relative;
+  background-color: transparent;
+  border-radius: 30px;
+  overflow: hidden;
+}
+
+.background-offer-2::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-image: url('/public/assets/offers/background-images/offer2.png');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  opacity: 0.3;
+  z-index: 0;
+}
+
+.background-offer-2::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  border-radius: 30px;
+  padding: 2px;
+  background: linear-gradient(93.82deg, #868686 0.05%, #a1a0a0 103.96%);
+  -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+  -webkit-mask-composite: xor;
+  mask-composite: exclude;
+  pointer-events: none;
+  z-index: 2;
+}
+
+.background-offer-2 > * {
+  position: relative;
+  z-index: 1;
+}
+
+/* Card 3 */
+.background-offer-3 {
+  position: relative;
+  background-color: transparent;
+  border-radius: 30px;
+  overflow: hidden;
+}
+
+.background-offer-3::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-image: url('/public/assets/offers/background-images/offer3.png');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  opacity: 0.3;
+  z-index: 0;
+}
+
+.background-offer-3::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  border-radius: 30px;
+  padding: 2px;
+  background: linear-gradient(93.82deg, #7e5245 0.05%, #be9494 103.96%);
+  -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+  -webkit-mask-composite: xor;
+  mask-composite: exclude;
+  pointer-events: none;
+  z-index: 2;
+}
+
+.background-offer-3 > * {
+  position: relative;
+  z-index: 1;
+}
+
+.offer-1 {
+  background: linear-gradient(93.82deg, #7e7245 0.05%, #969175 103.96%);
+}
+
+.offer-2 {
+  background: linear-gradient(93.82deg, #868686 0.05%, #a1a0a0 103.96%);
+}
+.offer-3 {
+  background: linear-gradient(93.82deg, #7e5245 0.05%, #be9494 103.96%);
+}
+
+@keyframes marquee {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(calc(-25% * 3));
+  }
+}
+
+.animate-marquee {
+  animation: marquee 40s linear infinite;
+  will-change: transform;
+  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+}

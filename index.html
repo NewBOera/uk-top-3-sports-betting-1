@@ -17,13 +17,15 @@
     <script src="/src/components/Footer.js" type="module"></script>
 
     <script src="/src/ui/Hero.js" type="module"></script>
+    <script src="/src/ui/Offers/Offers.js" type="module"></script>
+    <script src="/src/ui/Offers/OfferCard.js" type="module"></script>
+    <script src="/src/ui/SponsorCarousel.js" type="module"></script>
   </head>
 
   <body class="bg-blue">
     <main class="flex flex-col gap-10 md:gap-12 lg:gap-14">
-      <div id="hero-section">
-        <hero-section></hero-section>
-      </div>
+      <offers-section></offers-section>
+      <sponsors-carousel></sponsors-carousel>
     </main>
 
     <footer-element is-landing="true"></footer-element>

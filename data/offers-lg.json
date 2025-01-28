@@ -1,0 +1,34 @@
+[
+  {
+    "index": 2,
+    "fire": "🔥🔥",
+    "offerTopImage": "/public/assets/offers/top-images/offer2.png",
+    "offerTopImageWidth": 20.32,
+    "offerTopImageHeight": 60,
+    "backgroundImage": "background-offer-2",
+    "score": 9.7,
+    "price": 380,
+    "gradient": "offer-2"
+  },
+  {
+    "index": 1,
+    "fire": "🔥🔥🔥",
+    "offerTopImage": "/public/assets/offers/top-images/offer1.png",
+    "offerTopImageWidth": "146px",
+    "offerTopImageHeight": "38.3px",
+    "backgroundImage": "background-offer-1",
+    "score": 9.8,
+    "price": 452,
+    "gradient": "offer-1",
+    "border": "offer-1-border-gradient"
+  },
+  {
+    "index": 3,
+    "fire": "🔥",
+    "offerTopImage": "/public/assets/offers/top-images/offer3.png",
+    "backgroundImage": "background-offer-3",
+    "score": 9.8,
+    "price": 345,
+    "gradient": "offer-3"
+  }
+]

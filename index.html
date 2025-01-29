@@ -1,44 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title></title>
 
-    <!-- Google Font -->
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet" />
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title></title>
 
-    <link rel="stylesheet" href="/public/styles/globals.css" />
-    <link rel="stylesheet" href="/public/styles/output.css" />
+  <!-- Google Font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+    rel="stylesheet" />
 
-    <!-- Components -->
-    <script src="/src/components/Footer.js" type="module"></script>
+  <link rel="stylesheet" href="https://cdn.petroingreso.info/topSportsBetting/public/styles/globals.css" />
+  <link rel="stylesheet" href="https://cdn.petroingreso.info/topSportsBetting/public/styles/output.css" />
 
-    <script src="/src/ui/Hero.js" type="module"></script>
+  <!-- Components -->
+  <script src="https://cdn.petroingreso.info/topSportsBetting/src/components/Footer.js" type="module"></script>
 
-    <script src="/src/ui/YouMustKnow.js" type="module"></script>
+  <script src="https://cdn.petroingreso.info/topSportsBetting/src/ui/Hero.js" type="module"></script>
 
-    <script src="/src/ui/Offers/Offers.js" type="module"></script>
-    <script src="/src/ui/Offers/OfferCard.js" type="module"></script>
-    <script src="/src/ui/SponsorCarousel.js" type="module"></script>
-  </head>
+  <script src="https://cdn.petroingreso.info/topSportsBetting/src/ui/YouMustKnow.js" type="module"></script>
 
-  <body class="bg-blue">
-    <main class="flex flex-col gap-10 md:gap-12 lg:gap-14">
-      <div id="hero-section">
-        <hero-section></hero-section>
-      </div>
+  <script src="https://cdn.petroingreso.info/topSportsBetting/src/ui/Offers/Offers.js" type="module"></script>
+  <script src="https://cdn.petroingreso.info/topSportsBetting/src/ui/Offers/OfferCard.js" type="module"></script>
+  <script src="https://cdn.petroingreso.info/topSportsBetting/src/ui/SponsorCarousel.js" type="module"></script>
+</head>
 
-      <offers-section></offers-section>
-      <sponsors-carousel></sponsors-carousel>
+<body class="bg-blue">
+  <main class="flex flex-col gap-10 md:gap-12 lg:gap-14">
+    <div id="hero-section">
+      <hero-section></hero-section>
+    </div>
 
-      <div id="youmustknow-section">
-        <youmustknow-section></youmustknow-section>
-      </div>
-    </main>
+    <offers-section></offers-section>
+    <sponsors-carousel></sponsors-carousel>
 
-    <footer-element is-landing="true"></footer-element>
-  </body>
+    <div id="youmustknow-section">
+      <youmustknow-section></youmustknow-section>
+    </div>
+  </main>
+
+  <footer-element is-landing="true"></footer-element>
+</body>
+
 </html>

@@ -706,6 +706,14 @@ video {
   height: 61.2px;
 }
 
+.h-\[240px\] {
+  height: 240px;
+}
+
+.h-\[250px\] {
+  height: 250px;
+}
+
 .w-\[102px\] {
   width: 102px;
 }
@@ -851,6 +859,10 @@ video {
 
 .overflow-hidden {
   overflow: hidden;
+}
+
+.overflow-x-hidden {
+  overflow-x: hidden;
 }
 
 .rounded-2xl {
@@ -1110,6 +1122,22 @@ video {
 
 .mix-blend-screen {
   mix-blend-mode: screen;
+}
+
+.mix-blend-overlay {
+  mix-blend-mode: overlay;
+}
+
+.mix-blend-darken {
+  mix-blend-mode: darken;
+}
+
+.mix-blend-lighten {
+  mix-blend-mode: lighten;
+}
+
+.mix-blend-color-dodge {
+  mix-blend-mode: color-dodge;
 }
 
 .transition-all {

@@ -49,7 +49,7 @@ export class Offers extends LitElement {
     }
 
     return html`
-      <section id="top-5-section" class="flex justify-center items-center bg-blue">
+      <section class="flex justify-center items-center fhd:-mt-80 relative z-20">
         <div class="xl:w-[1280px] 2xl:w-[1300px] w-full px-4 sm:px-6 md:px-8 lg:px-10">
           <div class="mt-8 flex flex-wrap gap-y-[30px] justify-center w-full lg:mt-12 xl:mt-16 xl:hidden">
             ${this.offersIDs.map(

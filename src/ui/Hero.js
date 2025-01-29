@@ -11,7 +11,7 @@ export class Hero extends LitElement {
 
   render() {
     return html`
-      <div class="flex flex-col justify-center items-center text-white relative md:pb-16 xl:pb-72 overflow-hidden md:overflow-visible">
+      <div class="flex flex-col justify-center items-center text-white relative z-50 md:pb-16 xl:pb-72 overflow-hidden md:overflow-visible">
         <img src="/public/assets/hero/lightArrow.png" alt="light arrow" class=" object-contain h-[101px] mix-blend-screen absolute bottom-[146px]  -left-8 sm:left-0 md:hidden" />
 
         <img src="/public/assets/hero/lightArrow.png" alt="light arrow" class=" object-contain h-[101px] mix-blend-screen absolute bottom-[146px] -right-8 sm:right-0 transform rotate-180 md:hidden" />

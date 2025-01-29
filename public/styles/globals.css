@@ -2,11 +2,18 @@ html,
 body {
   scroll-behavior: smooth;
   font-family: 'inter', 'sans-serif';
+}
+
+.hero-bg {
   background-image: linear-gradient(rgba(13, 15, 41, 0.3), rgba(13, 15, 41, 1)), url('/public/assets/hero/backgroundChopped.png');
   background-position: top center;
   background-size: contain;
   background-repeat: no-repeat;
   overflow-x: hidden !important;
+}
+
+.blend {
+  mix-blend-mode: screen;
 }
 
 section,
@@ -19,7 +26,7 @@ div {
 }
 
 @media (min-width: 1024px) {
-  body {
+  .hero-bg {
     scroll-behavior: smooth;
     font-family: 'inter', 'sans-serif';
     background-image: linear-gradient(rgba(13, 15, 41, 0.4), rgba(13, 15, 41, 0.6)), url('/public/assets/hero/background.png');

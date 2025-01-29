@@ -8,6 +8,9 @@ module.exports = {
         orangy: '#FF3A5A',
         pinky: '#7733FF',
       },
+      screens: {
+        fhd: '1280px',
+      },
     },
   },
   plugins: [],

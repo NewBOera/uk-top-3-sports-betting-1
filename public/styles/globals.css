@@ -72,7 +72,7 @@ div {
   z-index: 2;
 }
 
-.background-offer-1>* {
+.background-offer-1 > * {
   position: relative;
   z-index: 1;
 }
@@ -114,7 +114,7 @@ div {
   z-index: 2;
 }
 
-.background-offer-2>* {
+.background-offer-2 > * {
   position: relative;
   z-index: 1;
 }
@@ -156,7 +156,7 @@ div {
   z-index: 2;
 }
 
-.background-offer-3>* {
+.background-offer-3 > * {
   position: relative;
   z-index: 1;
 }

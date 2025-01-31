@@ -17,17 +17,17 @@ export class Offers extends LitElement {
   }
 
   async firstUpdated() {
-    this.offersIDs = await this.fetchOffers('/data/offers.json');
+    this.offersIDs = await this.fetchOffers('/data/offers.json', data => (window.offerData = data));
     this.offersIDsDesktop = await this.fetchOffers('/data/offers-lg.json');
-
     this.requestUpdate();
   }
 
-  async fetchOffers(endpoit) {
+  async fetchOffers(endpoit, callback = () => {}) {
     try {
       const response = await fetch(endpoit);
       const data = await response.json();
-
+      //cache fetched data
+      callback(data);
       return data.map(offer => ({
         id: offer.index,
       }));
